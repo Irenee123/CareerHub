@@ -1,0 +1,176 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f7fb;
+  color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Job Matching Section */
+.job-matching-container {
+  padding: 40px;
+  background-color: #f4f7fb;
+}
+
+.job-matching-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2e3b4e;
+}
+
+.job-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+  color: #2e3b4e;
+}
+
+.job-card p {
+  margin: 10px 0;
+}
+
+.job-card button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background-color: #45a049;
+}
+
+/* Skill-Building Section */
+.skills-container {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.skills-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2e3b4e;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.skill-card a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.skill-card a:hover {
+  text-decoration: underline;
+}
+
+/* Networking Section */
+.networking-container {
+  padding: 40px;
+  background-color: #f4f7fb;
+}
+
+.networking-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2e3b4e;
+}
+
+.event-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h3 {
+  color: #2e3b4e;
+}
+
+.event-card p {
+  margin: 10px 0;
+}
+
+.event-card button {
+  background-color: #ff7b00;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-card button:hover {
+  background-color: #e06b00;
+}

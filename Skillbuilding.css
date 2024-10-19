@@ -1,0 +1,225 @@
+/* Navigation Bar */
+.navbar {
+    background-color: #2e3b4e;
+    padding: 5px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('Bac.jpg'); /* You can replace this with an actual image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    border-radius: 90px;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.hero-content p {
+    margin: 60px 0;
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background-color: #ff7b00;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 90px;
+}
+
+.cta-button:hover {
+    background-color: #e06b00;
+}
+
+/* Skill Building Resources Section */
+.skill-building-section {
+    padding: 60px 20px;
+    background-color: #f4f7fb;
+    text-align: center;
+}
+
+.skill-building-section h2 {
+    margin-bottom: 30px;
+    color: #2e3b4e;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-card h3 {
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.skill-card p {
+    margin-bottom: 15px;
+}
+
+.skill-link {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.skill-link:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #2e3b4e; /* Dark background for contrast */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.newsletter-form button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #45a049;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left, .footer-center, .footer-right {
+        text-align: center;
+    }
+}
+
