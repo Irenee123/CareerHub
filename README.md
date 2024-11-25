@@ -14,6 +14,7 @@ This is a sort of job portal website project which can help companies to announc
 •	Manage Employee
 •	Manage Applicants
 •	Manage Users
+
 **Job Seeker/Candidate Side**
 •	Track application
 •	Edit profile
@@ -21,6 +22,7 @@ This is a sort of job portal website project which can help companies to announc
 •	Apply for Job
 •	Reset password
 •	Deactivate account
+
 **Company/Recruiter Side**
 •	Create job post
 •	Email candidates/applicants
