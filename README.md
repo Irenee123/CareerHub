@@ -8,7 +8,7 @@ This is a sort of job portal website project which can help companies to announc
 •	Candidates can login and apply for various jobs, Update their information, Email recruiters etc.
 
 ## Features
-**Admin Side**
+### Admin Side
 
 •	Manage Companies/Confirm company registration
 •	Manage Job Vacancies
@@ -16,7 +16,7 @@ This is a sort of job portal website project which can help companies to announc
 •	Manage Applicants
 •	Manage Users
 
-**Job Seeker/Candidate Side**
+### Job Seeker/Candidate Side
 
 •	Track application
 •	Edit profile
@@ -25,7 +25,7 @@ This is a sort of job portal website project which can help companies to announc
 •	Reset password
 •	Deactivate account
 
-**Company/Recruiter Side**
+### Company/Recruiter Side
 
 •	Create job post
 •	Email candidates/applicants
