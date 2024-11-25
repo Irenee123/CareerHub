@@ -68,6 +68,8 @@ This is a sort of job portal website project which can help companies to announc
 6.	Import the provided SQL file. The file is known as "job.sql" located inside the extracted source code folder.
 7.	Browse the Online Job Search System in a browser. i.e. http://localhost/duel for the job seekers and http://localhost/duel/admin for the admin side.
 You can access this system Admin Panel using the following accounts
+
 ***Username: duel***
+
 ***Password: admin***
 
